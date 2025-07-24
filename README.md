@@ -151,14 +151,7 @@ go run svn-merge-tool.go rt
 ./svn-merge-tool gc
 ```
 
-## Error Handling
 
-The tool includes robust error handling for common scenarios:
-
-- **Repository Updates**: Automatically updates local repositories before merging
-- **Directory Navigation**: Handles changing to correct SVN directories
-- **Merge Conflicts**: Displays SVN merge output for manual resolution
-- **Missing Configuration**: Provides clear error messages for missing environment variables
 
 ## Troubleshooting
 
@@ -187,10 +180,3 @@ The tool includes robust error handling for common scenarios:
 4. Test thoroughly
 5. Submit a pull request
 
-
-## Support
-
-For issues and questions:
-- Check the troubleshooting section above
-- Review SVN documentation for underlying SVN concepts
-- [Add your contact/issue reporting information] 
