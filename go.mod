@@ -1,4 +1,4 @@
-module svn-merge-tool
+module github.com/christopherrrwong/svn-merge-tool
 
 go 1.21
 
