@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, generated with `go test -c`
+*.test
+
+# Output of the go build command, not specified in go.mod
+*.out
+
+# Go module dependencies
+/vendor/
+go.sum
+
+# Environments
+.env
+.env.*
+.vscode/
+
+# IDE specific files
+.idea/
+.DS_Store
+Thumbs.db
