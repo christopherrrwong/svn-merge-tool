@@ -485,7 +485,7 @@ func MergeTrunkToBranch() error {
 	statusCmd.Run()
 
 	fmt.Println("\nMerge completed! To commit, run:")
-	fmt.Println("go run main.go generate-commit")
+	fmt.Println("go run svn-merge-tool.go generate-commit")
 
 	return nil
 }
@@ -534,7 +534,7 @@ func showHelp() {
 	fmt.Println("SVN Merge Tool")
 	fmt.Println("")
 	fmt.Println("Usage:")
-	fmt.Println("  go run main.go <command>")
+	fmt.Println("  go run svn-merge-tool.go <command>")
 	fmt.Println("")
 	fmt.Println("Commands:")
 	fmt.Println("  branch-to-trunk    Merge branch to trunk (merge only)")
